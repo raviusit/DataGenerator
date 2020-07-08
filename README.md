@@ -1,4 +1,8 @@
-# DataGenerator
+# Data Generator
+
+## Description
+A generic data generator that's fast and extendable.
+
 This is a Python 3 project which is used to generate large amounts of complex data sets which mimics real world data
 
 Demo Data Generator requires a JSON configuration file to read the schema configuration of the various tables you want to generate. Here we will describe the format of the configuration file and enumerate the different parameters you can use to generate the data you want.
@@ -20,11 +24,6 @@ The overall structure of the configuration file looks like the following:
         ...
     }
 }
-
-# Demo Data Generator
-
-## Description
-A generic demo data generator that's fast and extendable
 
 ## Requirements
 * Python (>= 3.7)
